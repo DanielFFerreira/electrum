@@ -6,13 +6,137 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=0, initial-scale=1.0">
   <title>Electrum E-commerce</title>
+  <!-- Link fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
 
   <!-- Link estilo -->
   <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-  <h1>Testando</h1>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-top">
+      <!-- Container header top -->
+      <div class="header-top-container">
+        <div class="header-store-container">
+          <span>
+            <i class="fas fa-phone"></i>(48)99999-0000
+          </span>
+          <span>
+            <i class="far fa-envolope"></i>electrum@email.com
+          </span>
+          <span>
+            <i class="fas fa-map-marker-alt"></i>Rua Teste, 1234
+          </span>
+        </div>
+        <div class="header-users-container">
+          <span>
+            <i class="fas fa-dollar sign"></i>
+            <a href="#">BRL</a>
+          </span>
+          <span>
+            <i class="fas fa-user"></i>
+            <a href="#">Minha Conta</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header main -->
+    <div class="header-main">
+      <div class="header-main-container">
+        <!-- Link logo -->
+        <a href="#" id="header-brand">
+          Electrum
+          <i class="fas fa-bolt"></i>
+        </a>
+        <!-- Form -->
+        <form action="" id="header-search-form">
+          <input type="text" id="header-search" placeholder="Busque aqui">
+          <input type="submit" class="btn btn-half" value="Pesquisar">
+        </form>
+        <!-- Bookmarks -->
+        <div class="header-actions-menu">
+          <div class="header-wishlist-container">
+            <span class="header-qtd">0</span>
+            <i class="fa fa-heart"></i>
+            <a href="#">Favoritos</a>
+          </div>
+          <div class="header-cart-container">
+            <span class="header-qtd">0</span>
+            <i class="fas fa-shopping-cart"></i>
+            <a href="#">Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Promoções</a>
+          </li>
+          <li>
+            <a href="#">Notebooks</a>
+          </li>
+          <li>
+            <a href="#">Celulares</a>
+          </li>
+          <li>
+            <a href="#">Câmeras</a>
+          </li>
+          <li>
+            <a href="#">Acessórios</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section banner -->
+  <section class="banners">
+    <div class="banner" id="banner-1">
+      <div class="banner-cover"></div>
+      <div class="banner-content">
+        <h2>Promoção de Notebooks</h2>
+        <a href="#">
+          Ver Mais
+          <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="banner" id="banner-2">
+      <div class="banner-cover"></div>
+      <div class="banner-content">
+        <h2>Lançamento de Acessórios</h2>
+        <a href="#">
+          Ver Mais
+          <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="banner" id="banner-3">
+      <div class="banner-cover"></div>
+      <div class="banner-content">
+        <h2>Câmeras Potentes</h2>
+        <a href="#">
+          Ver Mais
+          <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
