@@ -10,7 +10,7 @@
     color: variables.$light-color;
 
     &-container {
-      @include layouts-mixins.container;
+      @include layouts-mixins.center-container;
       padding: 0.8rem 0;
 
       span {
@@ -30,7 +30,7 @@
 
 .header-main {
   &-container {
-    @include layouts-mixins.container;
+    @include layouts-mixins.center-container;
     padding: 1.3rem 0;
 
     a,
@@ -80,7 +80,7 @@
   border-top: 3px solid variables.$primary-color;
 
   ul {
-    @include layouts-mixins.container;
+    @include layouts-mixins.center-container;
     justify-content: left;
     padding: 1rem 0;
 
