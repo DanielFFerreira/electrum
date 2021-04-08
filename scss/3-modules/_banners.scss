@@ -18,6 +18,10 @@
     width: 90%;
     margin: 1rem 0;
   }
+  @include base-mixins.big-screen {
+    margin: 1rem auto;
+    width: calc(100% - 10rem);
+  }
 
   &:hover {
     background-size: 120%;

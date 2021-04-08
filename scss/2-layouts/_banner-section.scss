@@ -9,4 +9,7 @@
     flex-direction: column;
     align-items: center;
   }
+  @include base-mixins.big-screen {
+    flex-direction: column;
+  }
 }

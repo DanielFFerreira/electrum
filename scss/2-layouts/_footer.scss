@@ -4,9 +4,12 @@
 
 .footer {
   background-color: variables.$bg-color;
-  padding: 3rem 0;
+  padding: 3rem;
 
   @include base-mixins.mobile {
+    padding: 3rem;
+  }
+  @include base-mixins.big-screen {
     padding: 3rem;
   }
 
@@ -41,6 +44,9 @@
     @include base-mixins.mobile {
       flex-direction: column;
     }
+    @include base-mixins.big-screen {
+      flex-direction: column;
+    }
 
     &-about,
     &-categories,
@@ -49,6 +55,10 @@
       max-width: 25%;
 
       @include base-mixins.mobile {
+        max-width: 100%;
+        margin-bottom: 1rem;
+      }
+      @include base-mixins.big-screen {
         max-width: 100%;
         margin-bottom: 1rem;
       }

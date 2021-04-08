@@ -12,6 +12,12 @@
     @include base-mixins.mobile {
       display: none;
     }
+    @include base-mixins.tablet {
+      display: none;
+    }
+    @include base-mixins.big-screen {
+      display: none;
+    }
 
     &-container {
       @include layouts-mixins.center-container;
@@ -42,6 +48,16 @@
       align-items: center;
     }
 
+    @include base-mixins.tablet {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @include base-mixins.big-screen {
+      flex-direction: column;
+      align-items: center;
+    }
+
     a,
     span,
     i {
@@ -67,6 +83,14 @@
         width: 100%;
         margin: 2rem 0;
       }
+      @include base-mixins.tablet {
+        width: 100%;
+        margin: 2rem 0;
+      }
+      @include base-mixins.big-screen {
+        width: 100%;
+        margin: 2rem 0;
+      }
 
       input {
         height: 40px;
@@ -87,6 +111,16 @@
         @include base-mixins.mobile {
           margin: 1rem;
         }
+
+        @include base-mixins.tablet {
+          margin: 1rem;
+        }
+
+        @include base-mixins.big-screen {
+          margin: 0;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
       }
     }
   }
@@ -104,6 +138,10 @@
 
     @include base-mixins.mobile {
       display: none;
+    }
+
+    @include base-mixins.big-screen {
+      margin-left: 2rem;
     }
 
     li {

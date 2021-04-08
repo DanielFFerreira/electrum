@@ -3,7 +3,19 @@
     @content;
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 580px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 581px) {
+    @content;
+  }
+}
+
+@mixin big-screen {
+  @media (min-width: 581px) and (max-width: 720px) {
     @content;
   }
 }

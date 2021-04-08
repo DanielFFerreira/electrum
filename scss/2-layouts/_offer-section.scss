@@ -16,7 +16,13 @@
     background-size: 70%;
     background-position-y: 110%;
     background-position-x: 120%;
-    height: 700px;
+    height: 60rem;
+  }
+  @include base-mixins.big-screen {
+    background-size: 70%;
+    background-position-y: 160%;
+    background-position-x: 130%;
+    height: 55rem;
   }
 
   &-content {
