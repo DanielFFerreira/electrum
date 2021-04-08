@@ -40,3 +40,7 @@ Nesse projeto foi abordado as principais técnicas utilizando e arquiteturas do 
 * Valores e Operadores
 
 * Módulos do SASS
+
+<div style="text-align: center">
+  <img src="img/video.gif" />
+</div>
